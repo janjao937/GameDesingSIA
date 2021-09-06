@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static PlayerInput;
@@ -7,12 +8,26 @@ using static PlayerInput;
 public class Player : MonoBehaviour, IPlayerControlActions
 {
 
-    [SerializeField]private float speed = 10;
+    public event Action OnPlayerIsDie;
+
+    [SerializeField] private float speed = 10;
+
 
     private PlayerInput playerInput;
     private Vector3 playerDiraction;
+
+    float rotationSpeed = 20;
+
+    // For Mouse Look
+
+    private Vector2 mousePositionOnScreen;
+
+
+
+
     void Awake()
     {
+
         playerInput = new PlayerInput();
         playerInput.PlayerControl.SetCallbacks(this);
 
@@ -22,6 +37,15 @@ public class Player : MonoBehaviour, IPlayerControlActions
     void Update()
     {
         transform.position += Positon();
+        PlayerRotateMouseControll();
+    }
+    private void OnEnable()
+    {
+        playerInput.Enable();
+    }
+    private void OnDisable()
+    {
+        playerInput.Disable();
     }
 
     public void OnMovement(InputAction.CallbackContext ctx)
@@ -30,30 +54,40 @@ public class Player : MonoBehaviour, IPlayerControlActions
 
         playerDiraction = new Vector3(direction.x, 0, direction.y);
     }
-
-    private void OnFire()
+    public void OnMousePosition(InputAction.CallbackContext ctx)
     {
-        Debug.Log("Fire");
+        Vector2 getMousePositionOnScreen = ctx.ReadValue<Vector2>();
+
+        mousePositionOnScreen = new Vector2(getMousePositionOnScreen.x, getMousePositionOnScreen.y);
+
+
     }
 
+    // For Mouse Look
+    private void PlayerRotateMouseControll()
+    {
 
+        transform.rotation = Quaternion.Euler(new Vector3(0, mousePositionOnScreen.x, 0));
 
-
+    }
 
     private Vector3 Positon()
     {
         return playerDiraction * speed * Time.deltaTime;
     }
 
-
-
-    private void OnEnable()
+    private void OnFire()
     {
-        playerInput.Enable();
+        Debug.Log("Fire");
+        //get from pooling class
     }
-    private void OnDisable()
+
+
+    //other
+
+    private void PlayerDie()
     {
-        playerInput.Disable();
+        // implement next time
     }
 }
 
