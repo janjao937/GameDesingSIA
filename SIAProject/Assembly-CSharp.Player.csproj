@@ -75,10 +75,12 @@
     <Compile Include="Assets\Script\Charecter\EnemyType\EnemyBomb.cs" />
     <Compile Include="Assets\FullSerializer\Source\Internal\fsCyclicReferenceManager.cs" />
     <Compile Include="Assets\FullSerializer\Source\fsExceptions.cs" />
+    <Compile Include="Assets\Script\User\UserVerify.cs" />
     <Compile Include="Assets\Script\Manager\GameManager.cs" />
     <Compile Include="Assets\FullSerializer\Source\Converters\fsDictionaryConverter.cs" />
     <Compile Include="Assets\Script\Charecter\PlayerCharecter.cs" />
     <Compile Include="Assets\FullSerializer\Source\Reflection\fsTypeCache.cs" />
+    <Compile Include="Assets\Script\JSON\SimpleJSON.cs" />
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Exceptions\PromiseException.cs" />
     <Compile Include="Assets\Script\Manager\ScoreManager.cs" />
     <Compile Include="Assets\Script\Charecter\Charecter.cs" />
@@ -88,9 +90,11 @@
     <Compile Include="Assets\RestClient\DemoScene\Scripts\Model\Post.cs" />
     <Compile Include="Assets\FullSerializer\Source\fsJsonParser.cs" />
     <Compile Include="Assets\Script\Skill\Skill.cs" />
+    <Compile Include="Assets\Script\User\EmailConfirm.cs" />
     <Compile Include="Assets\FullSerializer\Source\Reflection\fsMetaType.cs" />
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\PromiseHelpers.cs" />
     <Compile Include="Assets\FullSerializer\Source\fsIgnoreAttribute.cs" />
+    <Compile Include="Assets\Script\User\UserSelf.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestException.cs" />
     <Compile Include="Assets\FullSerializer\Source\Converters\fsTypeConverter.cs" />
     <Compile Include="Assets\Script\Charecter\LookAtCamera.cs" />
@@ -101,6 +105,7 @@
     <Compile Include="Assets\Script\Skill\SlowTime.cs" />
     <Compile Include="Assets\Script\Manager\CameraControl.cs" />
     <Compile Include="Assets\Script\Bullet\PoolingOBJ.cs" />
+    <Compile Include="Assets\Script\Manager\RankManager.cs" />
     <Compile Include="Assets\Script\Manager\AdsManager.cs" />
     <Compile Include="Assets\Script\Skill\ImmortalSkill.cs" />
     <Compile Include="Assets\Script\Player.cs" />
@@ -121,10 +126,13 @@
     <Compile Include="Assets\RestClient\DemoScene\Scripts\Model\Todo.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\RestClient.cs" />
     <Compile Include="Assets\FullSerializer\Source\Converters\fsDateConverter.cs" />
+    <Compile Include="Assets\Script\LeaderBoard\RankData.cs" />
     <Compile Include="Assets\FullSerializer\Source\Converters\fsGuidConverter.cs" />
     <Compile Include="Assets\Script\Manager\FirebaseManager.cs" />
     <Compile Include="Assets\FullSerializer\Source\fsMemberSerialization.cs" />
     <Compile Include="Assets\Script\Manager\ParticalManager.cs" />
+    <Compile Include="Assets\Script\LeaderBoard\GetCom.cs" />
+    <Compile Include="Assets\Script\JSON\SimpleJSONBinary.cs" />
     <Compile Include="Assets\FullSerializer\Source\Converters\Unity\LayerMask_DirectConverter.cs" />
     <Compile Include="Assets\Script\Manager\SoundManager.cs" />
     <Compile Include="Assets\Script\Skill\Stunt.cs" />
@@ -140,6 +148,7 @@
     <Compile Include="Assets\FullSerializer\Source\Converters\Unity\Keyframe_DirectConverter.cs" />
     <Compile Include="Assets\FullSerializer\Source\Internal\fsTypeExtensions.cs" />
     <Compile Include="Assets\Script\Skill\AddDamageSkill.cs" />
+    <Compile Include="Assets\Script\User\UISignScene.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\RestClientPromise.cs" />
     <Compile Include="Assets\Script\Bullet\EnemyBullet.cs" />
     <Compile Include="Assets\FullSerializer\Source\Converters\fsPrimitiveConverter.cs" />
@@ -148,6 +157,7 @@
     <Compile Include="Assets\Script\Bullet\PlayerBullet.cs" />
     <Compile Include="Assets\FullSerializer\Source\fsJsonPrinter.cs" />
     <Compile Include="Assets\FullSerializer\Source\fsDirectConverter.cs" />
+    <Compile Include="Assets\Script\JSON\SimpleJSONUnity.cs" />
     <Compile Include="Assets\Script\Manager\Pooling Enemy\PoolingSpawnEnemy.cs" />
     <Compile Include="Assets\FullSerializer\Source\Converters\Unity\AnimationCurve_DirectConverter.cs" />
     <Compile Include="Assets\FullSerializer\Source\fsBaseConverter.cs" />
@@ -164,6 +174,7 @@
     <Compile Include="Assets\FullSerializer\Source\Converters\fsReflectedConverter.cs" />
     <Compile Include="Assets\Script\Charecter\EnemyType\EnemyMelee.cs" />
     <Compile Include="Assets\Script\Skill\SpeedSkill.cs" />
+    <Compile Include="Assets\Script\LeaderBoard\UserScore.cs" />
     <Compile Include="Assets\Script\TakeDamagePopUp.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestHelperExtension.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\StaticCoroutine.cs" />

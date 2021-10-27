@@ -1,0 +1,1546 @@
+[33mcommit ccc4e82bcbe2542aa254227f94b8de7bc9163053[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Oct 25 13:13:39 2021 +0700
+
+    Bug
+
+[33mcommit 9aff15d8456ddad3cb648bb639d5a19d3fa25790[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Sun Oct 24 20:11:01 2021 +0700
+
+    Check Work
+
+[33mcommit 9f25322b2f6e3af490d8d01b7da04cb79d332691[m
+Merge: 1c4c08fb 8e6ad0a8
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Sun Oct 24 19:43:57 2021 +0700
+
+    Merge branch 'SIAMain' of git://github.com/janjao937/GameDesingSIA into janjao937-SIAMain
+    
+    # Conflicts:
+    #       SIAProject/.vs/SIAProject/v16/.suo
+    #       SIAProject/Assembly-CSharp-Editor.csproj
+    #       SIAProject/Assembly-CSharp.Player.csproj
+    #       SIAProject/Assembly-CSharp.csproj
+    #       SIAProject/Assets/Scenes/SampleScene.unity
+    #       SIAProject/Assets/ShaderGraph/River/River_Mat.mat
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/InspectorExpandedItems.asset
+    #       SIAProject/Library/PackageManager/ProjectCache
+    #       SIAProject/Library/PackageManager/ProjectCache.md5
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/ScriptAssemblies/NavMeshComponents.dll
+    #       SIAProject/Library/ScriptAssemblies/NavMeshComponentsEditor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.InputSystem.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.UI.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.UI.dll
+    #       SIAProject/Library/ShaderCache.db
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Library/expandedItems
+    #       SIAProject/Logs/ApiUpdaterCheck.txt
+    #       SIAProject/NavMeshComponents.csproj
+    #       SIAProject/NavMeshComponentsEditor.csproj
+    #       SIAProject/SIAProject.sln
+    #       SIAProject/UserSettings/EditorUserSettings.asset
+    #       SIAProject/obj/Debug/Assembly-CSharp.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+    #       SIAProject/obj/Debug/NavMeshComponents.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.CollabProxy.Editor.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.InputSystem.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.InputSystem.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.Mathematics.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.Mathematics.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.RenderPipelines.Core.Runtime.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.RenderPipelines.Universal.Runtime.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.ShaderGraph.Editor.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.TextMeshPro.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.TextMeshPro.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.Timeline.Editor.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.Timeline.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/UnityEditor.TestRunner.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/UnityEditor.UI.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/UnityEngine.TestRunner.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/UnityEngine.TestRunner.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/UnityEngine.UI.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/UnityEngine.UI.csprojAssemblyReference.cache
+
+[33mcommit 8e6ad0a82970f779b043b34f55850f8112db109e[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Sun Oct 24 18:36:30 2021 +0700
+
+    Checked Merge WanModel(ParticleManager & SounManager)
+
+[33mcommit 0e435013f99f6d5a73e27b9b3985bb835c09dbfe[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Sun Oct 24 18:31:02 2021 +0700
+
+    Add ParticleManager& SoundManager
+
+[33mcommit 1c4c08fb3dd92759bf6bf6b2c22466530ba3b9dd[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Sat Oct 23 14:54:03 2021 +0700
+
+    Get UserRank
+
+[33mcommit acb0db85adf423e99ab2c73f023d041a2879bb87[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Fri Oct 22 23:19:45 2021 +0700
+
+    Can Get LeaderBoard
+
+[33mcommit 74eaa34800ed4354d953c122e74eb4dbeceade1e[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Wed Oct 20 23:00:59 2021 +0700
+
+    Can Get Username
+
+[33mcommit 8d64ea1366a12bc3d277e4f2cde10740ccfb5ac5[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Tue Oct 19 01:53:27 2021 +0700
+
+    Can Verify Email Now
+
+[33mcommit 34075e047a2309c743884a670fc86f2f719a75cc[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Sat Oct 16 17:34:29 2021 +0700
+
+    setting Sigin star game
+
+[33mcommit 7ad52d9c740f5f2ec1e0340cdefb09b420c6ef53[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Fri Oct 15 02:28:11 2021 +0700
+
+    check work
+
+[33mcommit c4053530db80844fa5f5e2c4146a6f1c15cb16e4[m
+Merge: 146f8f4b 2be0a330
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Fri Oct 15 02:21:51 2021 +0700
+
+    Merge branch 'WantModel' of git://github.com/janjao937/GameDesingSIA into janjao937-WantModel
+    
+    # Conflicts:
+    #       SIAProject/Assembly-CSharp-Editor.csproj
+    #       SIAProject/Assembly-CSharp.csproj
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/ArtifactDB-lock
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/ScriptAssemblies/NavMeshComponents.dll
+    #       SIAProject/Library/ScriptAssemblies/NavMeshComponentsEditor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.InputSystem.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.UI.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.UI.dll
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/SourceAssetDB-lock
+    #       SIAProject/Library/expandedItems
+    #       SIAProject/NavMeshComponents.csproj
+    #       SIAProject/NavMeshComponentsEditor.csproj
+    #       SIAProject/SIAProject.sln
+
+[33mcommit 2be0a3301703d01d672974357c9e75d6b79fa88f[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Oct 15 02:18:29 2021 +0700
+
+    Merge with setttt
+
+[33mcommit 8ce98045bda56059859732c7cfeb3911be4155aa[m
+Merge: 5547c69c c9f72d84
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Oct 15 02:13:22 2021 +0700
+
+    Merge branch 'For_Merge.2' of https://github.com/settakorn-sris/GameDesingSIA into settakorn-sris-For_Merge.2
+    
+    # Conflicts:
+    #       SIAProject/Assets/Prefabs/Enemy/Boss.prefab
+    #       SIAProject/Assets/Scenes/SampleScene.unity
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/ArtifactDB-lock
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/CurrentMaximizeLayout.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/ScriptAssemblies/NavMeshComponents.dll
+    #       SIAProject/Library/ScriptAssemblies/NavMeshComponentsEditor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.InputSystem.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.UI.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.UI.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.UI.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.UI.pdb
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/SourceAssetDB-lock
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Library/expandedItems
+    #       SIAProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
+[33mcommit 5547c69cec80ac7cefa4b9b7242ad40480337d6d[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Oct 15 02:02:44 2021 +0700
+
+    Merge Name
+
+[33mcommit 2e3bd3c4caafec22fc31c29fe1cafa0473806643[m
+Merge: e409b3cc f527edf4
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Oct 15 01:45:26 2021 +0700
+
+    Merge branch 'master' of https://github.com/3WVN/GameDesingSIA into 3WVN-master
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/CurrentMaximizeLayout.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Library/expandedItems
+    #       SIAProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
+[33mcommit f527edf4df9b981ac81be67ecc57a61461367190[m
+Author: 3WVN <teerapat.tham@bumail.net>
+Date:   Fri Oct 15 00:57:40 2021 +0700
+
+    commit
+
+[33mcommit e409b3cca59632a8ca0de05c3817a8ec348d68db[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Oct 15 00:54:48 2021 +0700
+
+    Check
+
+[33mcommit c0551319a5d47888fffd97ea2e4b492908c0ea8e[m
+Merge: 29c52f6e dfe78fbc
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Oct 15 00:52:44 2021 +0700
+
+    Merge branch 'SIAMain' into WantModel
+    
+    # Conflicts:
+    #       SIAProject/.vs/SIAProject/v16/.suo
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
+[33mcommit 29c52f6e9a1f441ad374275d5c1bec4499c2f2ef[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Oct 15 00:52:12 2021 +0700
+
+    Commit
+
+[33mcommit dfe78fbce4673be8e912696709ed0097a9d350b0[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Oct 15 00:51:05 2021 +0700
+
+    Add Partical code,Use Model
+
+[33mcommit c9f72d84705ed24d6fb064fa1264361adcdc7ae8[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Oct 14 23:14:41 2021 +0700
+
+    Something likes no config
+
+[33mcommit 636e890c1860e66805199ae6a925eff3c46f16dc[m
+Merge: bc9bae7e acf77bfd
+Author: 3WVN <89912204+3WVN@users.noreply.github.com>
+Date:   Thu Oct 14 23:02:44 2021 +0700
+
+    Merge pull request #1 from janjao937/SIAMain
+    
+    Sia main
+
+[33mcommit 146f8f4b9caaec2c125d4bf92ba723fa213b3bb2[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 22:51:36 2021 +0700
+
+    check bug
+
+[33mcommit cfbd6b798b75ef6a61474b0353cb13deb53713bf[m
+Merge: 6ea4a7f8 acf77bfd
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Oct 14 22:37:28 2021 +0700
+
+    Merge branch 'WantModel' of git://github.com/janjao937/GameDesingSIA into For_Merge.2
+    
+    # Conflicts:
+    #       SIAProject/Assets/Scenes/SampleScene.unity
+    #       SIAProject/Assets/Scenes/SigninScene.unity
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/ArtifactDB-lock
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/CurrentMaximizeLayout.dwlt
+    #       SIAProject/Library/PackageManager/ProjectCache
+    #       SIAProject/Library/PackageManager/ProjectCache.md5
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/ScriptAssemblies/NavMeshComponents.dll
+    #       SIAProject/Library/ScriptAssemblies/NavMeshComponentsEditor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.InputSystem.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.Timeline.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+    #       SIAProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEditor.UI.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+    #       SIAProject/Library/ScriptAssemblies/UnityEngine.UI.dll
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/SourceAssetDB-lock
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Library/expandedItems
+    #       SIAProject/Logs/ApiUpdaterCheck.txt
+    #       SIAProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+    #       SIAProject/SIAProject.sln
+
+[33mcommit 6d3ebcff397df5f9669a4f91d2fc522814ec557f[m
+Merge: ee2c105a acf77bfd
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 22:33:49 2021 +0700
+
+    Merge branch 'WantModel' of git://github.com/janjao937/GameDesingSIA into janjao937-WantModel
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
+[33mcommit c624c415ecc2fddc9eaba568326c550d53dfdd27[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 22:27:53 2021 +0700
+
+    commit
+
+[33mcommit ee2c105a4cbefb6d3e11dd942431a1bc2b57492e[m[33m ([m[1;31morigin/janjao937-SIAMain[m[33m)[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 22:23:05 2021 +0700
+
+    Fix git
+
+[33mcommit 6ea4a7f87f3b24616ba4172e471654bb7b7bf606[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Oct 14 22:22:40 2021 +0700
+
+    zxc
+
+[33mcommit 49523663b5f9ca324d95c48e9d9b4c3599041437[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Oct 14 22:19:29 2021 +0700
+
+    zxc
+
+[33mcommit b3958bf4dc29b35212cc09a18ce5cd05dda4bf77[m
+Merge: 00b418ed 17fc0340
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 22:18:39 2021 +0700
+
+    Merge branch 'janjao937-SIAMain'
+    
+    # Conflicts:
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
+[33mcommit 17fc03406f4f27741b7a3d9b6f9d8e2a75740a6f[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 22:18:08 2021 +0700
+
+    check
+
+[33mcommit 94540625678442060acd63cfa590bd7188d22fac[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 22:17:44 2021 +0700
+
+    check
+
+[33mcommit 00b418ed316fe8a019c305892fc05dae0c8fb462[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 22:16:22 2021 +0700
+
+    check
+
+[33mcommit d96ebc40c01c13ed0ac4ede70de4841c57cbdaf5[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 22:12:50 2021 +0700
+
+    check
+
+[33mcommit acf77bfdb3f69cbb70564b2236b0f8332f5a3e12[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 21:49:03 2021 +0700
+
+    PushMap
+
+[33mcommit 685502871a291552b2d64c8ac8c85c92b47c9909[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Oct 14 21:04:36 2021 +0700
+
+    Upgradable
+
+[33mcommit 7b9955ab6cf526d06adb74e0c3c390937d179b17[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 20:51:13 2021 +0700
+
+    Nice
+
+[33mcommit 96b50f3c276cab748f5103d0e00c591c84f014cd[m
+Merge: 661c5108 ef658781
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 20:48:49 2021 +0700
+
+    Merge branch 'WantModel' into SIAMain
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/ArtifactDB-lock
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/PackageManager/ProjectCache
+    #       SIAProject/Library/PackageManager/ProjectCache.md5
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/SourceAssetDB-lock
+    #       SIAProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
+[33mcommit ef65878150a02dc67b4f66e9d0e5469a7cc4d60f[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 20:45:13 2021 +0700
+
+    Push
+
+[33mcommit 20730cc738d742f2b6000dfaccafb347d6fca3fd[m
+Merge: 2168559a 78f7700b
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 20:37:47 2021 +0700
+
+    Merge branch 'WantModel' of https://github.com/janjao937/GameDesingSIA into WantModel
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/PackageManager/ProjectCache
+    #       SIAProject/Library/PackageManager/ProjectCache.md5
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
+[33mcommit 2168559afd68becac65c433fd2cc8cf48a34cbaa[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 20:36:05 2021 +0700
+
+    .
+
+[33mcommit 78f7700b488b8b00f401dd994c5d666ed4cb4438[m
+Merge: b4e68c9a 70b3a15e
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 20:35:41 2021 +0700
+
+    Merge pull request #13 from KasiditR/master
+    
+    เอางาน
+
+[33mcommit 4fb0d0a1ea5a4c6e9034dbfd0a84154db3dcffd5[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 20:34:07 2021 +0700
+
+    Commit
+
+[33mcommit b4e68c9af0474a21f529d0a1e44b44ab96205640[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 20:28:49 2021 +0700
+
+    TestCommit
+
+[33mcommit 661c510831a6b5d103aa2e60306b370da26dde03[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 20:21:18 2021 +0700
+
+    Commit
+
+[33mcommit bfbc8746467c1be0c847e6f767bfe853bb032f3a[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 18:29:07 2021 +0700
+
+    re
+
+[33mcommit 0186f26659d8d20df8d71db0093705dd2a983327[m
+Merge: e22c1313 980a9d68
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Oct 14 17:51:54 2021 +0700
+
+    Merge branch 'For_Merge.2' of https://github.com/settakorn-sris/GameDesingSIA into For_Merge.2
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/PackageManager/ProjectCache
+    #       SIAProject/Library/PackageManager/ProjectCache.md5
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/SourceAssetDB
+
+[33mcommit e22c1313f6033e1851a473bb334cd844d2fb58f2[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Oct 14 17:50:35 2021 +0700
+
+    asdasd
+
+[33mcommit 4092897de7157cfa80edadb51ced70601b337ac0[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Oct 14 17:46:16 2021 +0700
+
+    asda
+
+[33mcommit 980a9d6872297fbab146092c2e102ec5bfc3705a[m
+Merge: 61ca972e 9c8bd32e
+Author: settakorn-sris <77877326+settakorn-sris@users.noreply.github.com>
+Date:   Thu Oct 14 17:38:31 2021 +0700
+
+    Merge pull request #7 from janjao937/SIAMain
+    
+    Hun Nae
+
+[33mcommit 9c8bd32e0dfa0af49c9be817bf43b9ef76888b8c[m
+Merge: 408ce8d5 70b3a15e
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 17:05:19 2021 +0700
+
+    Merge pull request #11 from KasiditR/master
+    
+    ส่งงาน
+
+[33mcommit 70b3a15e0ed4e519370452819dd3671ca8faff92[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 17:04:05 2021 +0700
+
+    sheck work
+
+[33mcommit 94a4c053ab1257a377cbabe07fba416274b6b766[m
+Merge: 72b7b599 408ce8d5
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 16:57:48 2021 +0700
+
+    Merge branch 'SIAMain' of https://github.com/janjao937/GameDesingSIA into janjao937-SIAMain
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Library/expandedItems
+    #       SIAProject/obj/Debug/Assembly-CSharp.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/NavMeshComponents.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.InputSystem.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.InputSystem.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.TextMeshPro.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.TextMeshPro.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.Timeline.Editor.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.Timeline.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.VisualStudio.Editor.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/UnityEditor.UI.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/UnityEngine.UI.csprojAssemblyReference.cache
+
+[33mcommit 72b7b5994d7d8be6821634f52db70ddd42fd9b77[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 16:56:02 2021 +0700
+
+    Before Present
+
+[33mcommit 408ce8d5fe637f5cd6caf4d85baae05542916371[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Oct 14 16:55:07 2021 +0700
+
+    Pooling Enemy
+
+[33mcommit ca6a6a4f134bbb3869e2f8d4d8667f27f3f72ed8[m
+Merge: e58c3b89 cc25b45c
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 14:34:40 2021 +0700
+
+    Merge branch 'SIAMain' of https://github.com/janjao937/GameDesingSIA into janjao937-SIAMain
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/InspectorExpandedItems.asset
+    #       SIAProject/Library/PackageManager/ProjectCache
+    #       SIAProject/Library/PackageManager/ProjectCache.md5
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/obj/Debug/Assembly-CSharp.Player.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.CollabProxy.Editor.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.Rider.Editor.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/Unity.VSCode.Editor.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/UnityEditor.TestRunner.csprojAssemblyReference.cache
+    #       SIAProject/obj/Debug/UnityEngine.TestRunner.Player.csprojAssemblyReference.cache
+
+[33mcommit e58c3b89ed77c20d36bc94cb896cd8bc837f0fbc[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Oct 14 14:33:42 2021 +0700
+
+    commit
+
+[33mcommit 4fdc825c2c6b92fb4d1a8f82d6655fed9dd99cfd[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Wed Oct 13 19:37:18 2021 +0700
+
+    Move canvas sign in ON SigninScene
+
+[33mcommit 75315e0dd39fa23c21c2208dcf024c6a5ded23a6[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Wed Oct 13 15:37:35 2021 +0700
+
+    Add get username localId
+
+[33mcommit 7d6dc8f7722564376e8fde2d61d210635ef6632f[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Wed Oct 13 13:37:39 2021 +0700
+
+    Add River_VFX & Partical
+
+[33mcommit cc25b45c2d12a945518d5d368f5b16d1fc255eee[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Wed Oct 13 01:05:47 2021 +0700
+
+    AddPopUpDamage
+
+[33mcommit 89b03282bfde7c01949470ef7007a5e7f7892d3a[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Oct 11 19:52:32 2021 +0700
+
+    SignUP,SignIN
+
+[33mcommit 4adc509499e27a5a6a8468ca24f00689017c53da[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Oct 11 12:54:33 2021 +0700
+
+    Check Config & Check Error
+
+[33mcommit d86c204cff9b38ae255ed742fc74e9210db44b7c[m
+Merge: 520c769e ceefbb51
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Oct 11 12:43:29 2021 +0700
+
+    Merge branch 'SIAMain' of https://github.com/janjao937/GameDesingSIA into janjao937-SIAMain
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/Artifacts/12/1296010cc816b8265212722cbc9b6297
+    #       SIAProject/Library/Artifacts/15/15bad7bb4914b6f3254030ca5fa94ff5
+    #       SIAProject/Library/Artifacts/44/44029f93beca68b73e66b7ad29589ace
+    #       SIAProject/Library/Artifacts/62/62c2aeb8a304e17d551e042097a22916
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/InspectorExpandedItems.asset
+    #       SIAProject/Library/PackageManager/ProjectCache
+    #       SIAProject/Library/PackageManager/ProjectCache.md5
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+    #       SIAProject/Library/expandedItems
+    #       SIAProject/ProjectSettings/ProjectSettings.asset
+    #       SIAProject/SIAProject.sln
+
+[33mcommit ceefbb51fd0b22be982aea58d0f38a6e06133a21[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Oct 11 00:20:15 2021 +0700
+
+    ADD Skill
+
+[33mcommit 520c769e744a216423a256b3ba4b684516247966[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Sun Oct 10 17:00:47 2021 +0700
+
+    set up RESTClient and FullSerializer
+
+[33mcommit 5cd13d19e0d3cc69840de279ba5674fd495cde35[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Oct 5 10:49:26 2021 +0700
+
+    Add RP
+
+[33mcommit 191988d17dde817e25b368e48ffd836fc626474c[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Oct 5 10:21:05 2021 +0700
+
+    testGit
+
+[33mcommit d6c5f321419a96268b524ddcb1e5c63f940ca96b[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Oct 5 10:18:44 2021 +0700
+
+    testGitIgnor
+
+[33mcommit c20664d855c906505dc5e1d24c0a0d5e9f0484cb[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Oct 5 10:14:19 2021 +0700
+
+    TestGit ADD skill
+
+[33mcommit 541b3f7ea3b9f3ab5d075d370294d272f9d6f217[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Sep 30 21:01:47 2021 +0700
+
+    Delete Comment
+
+[33mcommit 321df9344ab8fb6f5be10c02ca30f59535425cd9[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Sep 30 20:56:35 2021 +0700
+
+    CommitFont
+
+[33mcommit 4836a3d190d4c95e863dc912740b88de3bdf0fa5[m
+Merge: fab6adec 61ca972e
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Sep 30 14:39:11 2021 +0700
+
+    Merge pull request #9 from settakorn-sris/For_Merge
+    
+    UI UI UI
+
+[33mcommit 61ca972efc3087c104f7041e55541312d0b6edaa[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Sep 30 14:37:31 2021 +0700
+
+    UI UI UI
+
+[33mcommit 9a140d63c86a18085c96f501fb535c81adc12938[m
+Merge: 0caba9d6 fab6adec
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Sep 30 14:31:28 2021 +0700
+
+    Merge branch 'SIAMain' of https://github.com/janjao937/GameDesingSIA into janjao937-SIAMain
+    
+    # Conflicts:
+    #       SIAProject/Assets/Scenes/SampleScene.unity
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/PackageManager/ProjectCache.md5
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Logs/AssetImportWorker0.log
+
+[33mcommit 0caba9d63ccc0beb5de36fe4ac06492d5520d59a[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Sep 30 14:29:11 2021 +0700
+
+    Merge
+
+[33mcommit e3392a98b91355908392de4036562a6ea6963d21[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Sep 30 14:25:43 2021 +0700
+
+    Merge
+
+[33mcommit 8d1047a4d2b1ee46462d16df8eb9b456b101ded4[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Thu Sep 30 14:21:06 2021 +0700
+
+    UI Update
+
+[33mcommit fab6adec2119a8e262a0399c90c3a2ffae42e972[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 27 19:20:10 2021 +0700
+
+    FixBomClass
+
+[33mcommit efe0c09d315e00312c3e30af78d1a4f5a7965073[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 27 19:19:49 2021 +0700
+
+    Change Oncollision
+
+[33mcommit 0fe8ffe09d24ca0b8dd2f9586f32336d1d71bb18[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 27 18:46:13 2021 +0700
+
+    Add EnemyType
+
+[33mcommit d72fffea9e5ed99eef861cbaa94c634598f6b944[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Wed Sep 22 20:44:14 2021 +0700
+
+    ADD Healing System
+
+[33mcommit bc9bae7eeae7cfc103baa50ddd603f7ee8587992[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 20 12:49:44 2021 +0700
+
+    merge progammingPlz to master
+
+[33mcommit bbafad07fd658f85648409db096b46f8a63a79e3[m
+Merge: 62ac6bc5 d4f39e6d
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 20 12:46:08 2021 +0700
+
+    Merge branch 'ProgrammingPlzNoConfig'
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Logs/AssetImportWorker0-prev.log
+    #       SIAProject/Logs/AssetImportWorker0.log
+
+[33mcommit d4f39e6de104958f6589649690fedb07c8075610[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 20 12:45:32 2021 +0700
+
+    Commit
+
+[33mcommit 62ac6bc547a7d449e3950d7329e16d2267a4d430[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 20 11:57:36 2021 +0700
+
+    Commit
+
+[33mcommit 8b6ade3093ed23332639fb240c92378c1ef7b18d[m
+Merge: a6572632 d728a93f
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Mon Sep 20 11:55:07 2021 +0700
+
+    Merge branch 'master' of https://github.com/settakorn-sris/GameDesingSIA
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Logs/AssetImportWorker0-prev.log
+    #       SIAProject/Logs/AssetImportWorker0.log
+    #       SIAProject/Logs/shadercompiler-AssetImportWorker0.log
+
+[33mcommit a65726328065319ce5cb4acffe801301d0ae4d1e[m
+Author: settakorn_sris <settakorn.sris@bumail.net>
+Date:   Mon Sep 20 11:52:21 2021 +0700
+
+    Senddd
+
+[33mcommit d728a93f7338c1d636102082f42fe74021d2289c[m
+Merge: ea3f7452 ea8af86c
+Author: settakorn-sris <77877326+settakorn-sris@users.noreply.github.com>
+Date:   Mon Sep 20 11:50:52 2021 +0700
+
+    Merge pull request #1 from janjao937/master
+    
+    Update 20/09/2021
+
+[33mcommit 797a578370d497c45f40c95fea2d5f4151ce37ff[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Sat Sep 18 13:58:16 2021 +0700
+
+    Merge with boss
+
+[33mcommit e88e45b968b1005d12af8c24a7d7b57a94eb04c3[m
+Merge: 5f5cf63b 4a2d5cf1
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Sat Sep 18 13:42:35 2021 +0700
+
+    Merge pull request #8 from KasiditR/master
+    
+    ส่งงานจ้า
+
+[33mcommit ea8af86c243304e4b3030283f523d21e509cbf89[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Sat Sep 18 13:42:10 2021 +0700
+
+    Commit
+
+[33mcommit 4a2d5cf17b9b79997579c373a789ea450274928d[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Sat Sep 18 13:40:40 2021 +0700
+
+    Fixed HealthBar
+
+[33mcommit 53f58fb7abad32d26a1ac333bba959a44af4b539[m
+Merge: 855a4e1b 8a512d4a
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Sat Sep 18 13:19:03 2021 +0700
+
+    Merge branch 'master' of git://github.com/janjao937/GameDesingSIA into janjao937-master
+    
+    # Conflicts:
+    #       SIAProject/Assets/Prefabs/Boss.prefab
+    #       SIAProject/Assets/Scenes/SampleScene.unity
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/Artifacts/23/23e84e3f12e18022a0a20bef358459c8
+    #       SIAProject/Library/Artifacts/2c/2cc9e3add96418309763eccdea3ba4ca
+    #       SIAProject/Library/Artifacts/3c/3c7b4090a5694d905b6890ad613d7040
+    #       SIAProject/Library/Artifacts/65/651a06838a80d3dddf9eb79e9e00273e
+    #       SIAProject/Library/Artifacts/79/79b08b5d1d5dadc8fbcb882da89f419c
+    #       SIAProject/Library/Artifacts/7c/7cdc2ed26632b0a8842fb411bcffb660
+    #       SIAProject/Library/Artifacts/bf/bfc90936d57f236965b28c241feaf15c
+    #       SIAProject/Library/Artifacts/cf/cf73512de19bfea22519ae07a249e7b3
+    #       SIAProject/Library/Artifacts/ed/ed322f05dd8cf1b45cc2b6516888eaeb
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/PrefabStageHierarchy/14/14ee9c6cbf7cc2a281abc102be27ef11.json
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Logs/AssetImportWorker0-prev.log
+    #       SIAProject/Logs/AssetImportWorker0.log
+
+[33mcommit 855a4e1bbdf573a8bccd50176fab8665bc18bbd8[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Sat Sep 18 13:05:26 2021 +0700
+
+    commit
+
+[33mcommit 8a512d4a1d86adcf1acc23b1b59482c3b517e11a[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Sat Sep 18 09:52:57 2021 +0700
+
+    Merge progammingPlz to Master
+
+[33mcommit 5f5cf63be729907b9e44921926a474f25ac6f773[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Sat Sep 18 09:48:50 2021 +0700
+
+    Fixed SpawnEnemy system,Add bullet Setting,Add round Update Gameloop ==> GameManager
+
+[33mcommit 2e472c09170a4a6172788cd88299e06ced8e5667[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Sep 17 06:44:16 2021 +0700
+
+    merge master to PrgrammingPlz
+
+[33mcommit dd89a083fdf8fc76881b1f382f4ea72aa0830c29[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Sep 17 06:42:15 2021 +0700
+
+    FixGameLoop in GM,Chane enemyCharacte and playerCharacte system but player system is'nt finished
+
+[33mcommit acbdc6057c7a5a241c11b66b5edeccc4dd9fabe1[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Wed Sep 15 14:00:53 2021 +0700
+
+    Check Scene
+
+[33mcommit 9e957e3c4c88b10273658f480cf8e94f647b818d[m
+Merge: e706feb5 ca12a073
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Wed Sep 15 13:58:24 2021 +0700
+
+    Merge branch 'master' of https://github.com/KasiditR/GameDesingSIA
+    
+    # Conflicts:
+    #       SIAProject/Assets/Script/Manager/GameManager.cs
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/Artifacts/78/7836a50b26f5cbf2fccf711a0b2120fd
+    #       SIAProject/Library/Artifacts/85/858e8ef497290b8b657e8433e2e7e9e9
+    #       SIAProject/Library/Artifacts/9f/9fce4f21b0c5f367f29127a4e66b4fd0
+    #       SIAProject/Library/Artifacts/af/af87c8c247960765160f2119e985098c
+    #       SIAProject/Library/Artifacts/f4/f46f0358d73b815c1d720b028ed653c9
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Logs/AssetImportWorker0-prev.log
+    #       SIAProject/Logs/AssetImportWorker0.log
+
+[33mcommit e706feb5142f3798c5383f81925a062ad59b172a[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Wed Sep 15 13:56:47 2021 +0700
+
+    commit
+
+[33mcommit ca12a0734ac65fc92f231062ee5e6024dd9b426a[m
+Merge: 6104f239 6aabcb4e
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Wed Sep 15 13:55:42 2021 +0700
+
+    Merge pull request #7 from janjao937/master
+    
+    Merge Controller
+
+[33mcommit 6aabcb4e3312933508c2195e9f00b3bb91e138e1[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Wed Sep 15 04:13:20 2021 +0700
+
+    merge from programming
+
+[33mcommit 33809af2262e180ea002fde1b3f5f0e8b06433dc[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Wed Sep 15 04:11:20 2021 +0700
+
+    Add Controller & Add fireRate in pool
+
+[33mcommit 6104f2397dd749c425089a1902a47c783e40b276[m
+Merge: 528b9e69 708673ee
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Tue Sep 14 09:21:10 2021 +0700
+
+    Merge branch 'master' of https://github.com/KasiditR/GameDesingSIA
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Logs/AssetImportWorker0-prev.log
+    #       SIAProject/Logs/AssetImportWorker0.log
+
+[33mcommit 528b9e696184775aaad799f6b281c9d152a544ab[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Tue Sep 14 09:20:08 2021 +0700
+
+    check
+
+[33mcommit 708673ee75ec5be61d24843e9f55bb2985c0d1df[m
+Merge: b8793d88 972da0db
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Tue Sep 14 09:19:05 2021 +0700
+
+    Merge pull request #6 from janjao937/ProgrammingPlzNoConfig
+    
+    Merge
+
+[33mcommit 972da0dbf0266e41dafab95c7eeed5bb28a377a0[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Sep 14 03:02:13 2021 +0700
+
+    merge particalEFF
+
+[33mcommit 94c55a8c8c9053965a51c71f154f71c241ecfad6[m
+Merge: 443e2bb1 b8793d88
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Sep 14 02:57:00 2021 +0700
+
+    Merge pull request #7 from KasiditR/master
+    
+    ส่ง
+
+[33mcommit b8793d88320fefda38198e81feba24b7400d75f6[m
+Merge: 385c51ea a1dfcbf7
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Tue Sep 14 02:43:19 2021 +0700
+
+    Merge branch 'janjao937-master'
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+[33mcommit a1dfcbf7f7476eb10df81aa497c2fd6352693f97[m
+Merge: 385c51ea 02ffb47e
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Tue Sep 14 02:39:27 2021 +0700
+
+    Merge branch 'master' of git://github.com/janjao937/GameDesingSIA into janjao937-master
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/Artifacts/9e/9e22274054de699f5045e945349306fe
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Logs/AssetImportWorker0-prev.log
+    #       SIAProject/Logs/AssetImportWorker0.log
+    #       SIAProject/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+
+[33mcommit 443e2bb1a35d65d237c4b568605dd5788f60de93[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Sep 14 02:06:31 2021 +0700
+
+    merge main to Programming
+
+[33mcommit 02ffb47ecbdd600cf943c7fd256067e2b0abbcba[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Sep 14 02:04:18 2021 +0700
+
+    merge ProgrammingPlzNoconfig
+
+[33mcommit 1ce387eb75fa8c4d0bc50e9dee5db9891855803a[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Sep 14 01:57:20 2021 +0700
+
+    create wave in GameManager
+
+[33mcommit 385c51ea9ee8ac37ca260762fcf14be13163bdca[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Sat Sep 11 15:30:33 2021 +0700
+
+    DistanceEnemyPlayer
+
+[33mcommit 582d2a1d91c955b3ffa08f2726a7c9c71f431b79[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Sat Sep 11 14:43:56 2021 +0700
+
+    SetTimeEffectDestory
+
+[33mcommit 675751eff59e20ba80dcaf84dcb9a5290982fc29[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Fri Sep 10 21:13:51 2021 +0700
+
+    EffectEnemyDie
+
+[33mcommit 3ab507fdb70918ecca566009c6deadfb88ee7b81[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Fri Sep 10 20:13:53 2021 +0700
+
+    Effect Bullet
+
+[33mcommit e14851db33f963c0884dd8a9304811a178726407[m
+Merge: e0e956ab 2468349f
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Fri Sep 10 18:29:42 2021 +0700
+
+    Merge branch 'master' of https://github.com/KasiditR/GameDesingSIA
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Logs/AssetImportWorker0-prev.log
+    #       SIAProject/Logs/AssetImportWorker0.log
+
+[33mcommit e0e956ab68a46b5a505bc253bb417cc4d5b30814[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Fri Sep 10 18:29:19 2021 +0700
+
+    commit
+
+[33mcommit 2468349f499285722a125683941bdf0cf3ea2043[m
+Merge: 99e45fdc a3e4cc62
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Fri Sep 10 18:27:47 2021 +0700
+
+    Merge pull request #4 from janjao937/ProgrammingPlzNoConfig
+    
+    Programming plz no config
+
+[33mcommit a3e4cc62d717961459474a4a5130f6c4e5bc6b08[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Fri Sep 10 18:00:07 2021 +0700
+
+    Add Sky Color
+
+[33mcommit cfe4bd8384e7574c9b88b3fa93ebcd6176788fd5[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Sep 9 22:36:41 2021 +0700
+
+    ADDBossKasiDist
+
+[33mcommit 99e45fdc14d02f388ec02c60d375ddcd94a2b95b[m
+Merge: 50979eb9 cfc20b98
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Thu Sep 9 21:30:40 2021 +0700
+
+    Merge pull request #3 from janjao937/ProgrammingPlzNoConfig
+    
+    Programming plz no config
+
+[33mcommit ea3f745238934939d8b58726d7952111ba391492[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Sep 9 20:59:48 2021 +0700
+
+    ADDImg
+
+[33mcommit fe0dd8467594e62b986b0773073db47fcde03066[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Sep 9 07:23:57 2021 +0700
+
+    CheckMerge
+
+[33mcommit cfc20b9849bd9ad8282fd8142b0eb4a31b8a7544[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Sep 9 07:21:27 2021 +0700
+
+    ChangeGround's Color
+
+[33mcommit 0bf14445446c9effe639cb08116736edc298b783[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Sep 9 07:17:35 2021 +0700
+
+    CheckConfig
+
+[33mcommit f72a0a29ad56e3e336c5eeb5ea9eb90c4d98c3b9[m
+Merge: 033aa8aa ad5b8411
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Sep 9 07:15:59 2021 +0700
+
+    Merge branch 'master' into Programming
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/Artifacts/64/64c5b536e4dd24f7c8505283f20bb484
+    #       SIAProject/Library/Artifacts/a9/a91e09fcf84af47afc2993e2e2e59b15
+    #       SIAProject/Library/Artifacts/b1/b1bd03150acf2e429723e8651d8f25fc
+    #       SIAProject/Library/Artifacts/b3/b3437fe77f8f52e42c0dc5ee474deab5
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/CurrentMaximizeLayout.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Logs/AssetImportWorker0-prev.log
+    #       SIAProject/Logs/shadercompiler-UnityShaderCompiler.exe1.log
+
+[33mcommit ad5b84116bb61539bb574bd4b56da8cc437cdf65[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Thu Sep 9 07:08:25 2021 +0700
+
+    ADDScoreManager,Fixed Bullet,AddUI,Change EnemySpeed ,Create TakeDamage System,Add Restart Game But it's does not work
+
+[33mcommit 3b5e23ca5493d4672c0098400480a5bff04b8c45[m
+Merge: add26dc0 50979eb9
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Wed Sep 8 23:19:49 2021 +0700
+
+    Merge pull request #6 from KasiditR/master
+    
+    ส่งงานจ้า
+
+[33mcommit 033aa8aa86d362154458adaefdda46a8ee68ba07[m
+Merge: f15ea2f0 add26dc0
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Wed Sep 8 23:17:35 2021 +0700
+
+    Merge branch 'master' into Programming
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/Artifacts/21/21869f74b4bb0a90b31cd8946c259d49
+    #       SIAProject/Library/Artifacts/2c/2cb8c1d31bd2fdbc641fc0670b881c32
+    #       SIAProject/Library/Artifacts/46/4613759cb11fe6f3826794f4df93caab
+    #       SIAProject/Library/Artifacts/76/7677534e6786aea13b916dbdc18e912d
+    #       SIAProject/Library/Artifacts/a6/a666a2db6def237a06efdd3999e74f1e
+    #       SIAProject/Library/Artifacts/a9/a98236aee2f6aff58cf23eecdf658276
+    #       SIAProject/Library/Artifacts/ba/ba951fccdf45b365306be46200544cf1
+    #       SIAProject/Library/Artifacts/d3/d3a712eff140ea359211e904ccef3720
+    #       SIAProject/Library/Artifacts/f4/f4a93abfd30a4cdecf2e80edf6ca2a66
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/SceneView/4c/4c156bd56d63a1aa8bd5f421ece70ead.json
+    #       SIAProject/Logs/AssetImportWorker0-prev.log
+    #       SIAProject/Logs/AssetImportWorker0.log
+
+[33mcommit 50979eb93361b68ffed5cf7878633b1717ce4d01[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Wed Sep 8 23:10:36 2021 +0700
+
+    HealthBar
+
+[33mcommit 1211c4012cf4f86a437cf0459701163542a95ab3[m
+Merge: aa20a456 add26dc0
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Wed Sep 8 20:36:30 2021 +0700
+
+    Merge pull request #2 from janjao937/master
+    
+    ของานหน่อย
+
+[33mcommit add26dc0a705305c563f31847e778f2b1b7642d8[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Wed Sep 8 04:19:07 2021 +0700
+
+    ADDPooling,ADDSpawnSystem,ADDBullet,Use Nav Vesion 1
+
+[33mcommit f15ea2f00fccef1ac9d97d6af83a9045078d1f3e[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Sep 7 22:46:10 2021 +0700
+
+    Commit Openfile
+
+[33mcommit 8173f00069e3769aafa4634853ad4b53fc1d410d[m
+Merge: 95ebd08e aa20a456
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Tue Sep 7 22:45:16 2021 +0700
+
+    Merge pull request #5 from KasiditR/master
+    
+    FixEnemyBug
+
+[33mcommit aa20a4569726cee05e39a4a2b20c5f5edbe0642e[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Tue Sep 7 21:09:08 2021 +0700
+
+    FixEnemyBug
+
+[33mcommit a35b21a4926867e07ba221afdf98d05ed76b4816[m
+Merge: 71c7cbb3 95ebd08e
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 6 19:22:41 2021 +0700
+
+    Merge branch 'master' into Programming
+    
+    # Conflicts:
+    #       SIAProject/Assets/Prefabs/Cube.prefab
+    #       SIAProject/Assets/Scenes/SampleScene.unity
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Logs/AssetImportWorker0-prev.log
+    #       SIAProject/Logs/AssetImportWorker0.log
+
+[33mcommit 18189c8d31f725e8179a4bcd7dc5aa1c5842246c[m
+Merge: e4820420 95ebd08e
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Sep 6 19:22:06 2021 +0700
+
+    Merge pull request #1 from janjao937/master
+    
+    ของานหน่อย
+
+[33mcommit 95ebd08e024be8a322227e332be7aee98b094585[m
+Merge: 8e5e4ffb a653ade4
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 6 19:21:07 2021 +0700
+
+    FIxconfig2
+
+[33mcommit 8e5e4ffb253a7aeb188f9acba9b573edaf93a965[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 6 18:44:47 2021 +0700
+
+    CommitToPull
+
+[33mcommit a653ade4092fc8345cff52b0b84bae308dbd5dc5[m
+Merge: dfd8fbc6 e4820420
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 6 18:43:17 2021 +0700
+
+    Merge pull request #4 from KasiditR/master
+    
+    EnemyAgnet
+
+[33mcommit e4820420b79588256d7010c5d40dfd9e19510e31[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Sep 6 18:42:22 2021 +0700
+
+    EnemyAgnet
+
+[33mcommit dfd8fbc69f2c3c18fd3a13d8f3ab0173f564b28e[m
+Merge: fc01bad7 dbaac219
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 6 18:29:54 2021 +0700
+
+    Merge pull request #3 from KasiditR/master
+    
+    fristcommit
+
+[33mcommit dbaac219f8202505f8560b07459e4e05113d0fc8[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Sep 6 18:28:07 2021 +0700
+
+    fristcommit
+
+[33mcommit 71c7cbb3a76f71fcc52cefcff3a61e8a016ac426[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 6 18:16:30 2021 +0700
+
+    Fix config
+
+[33mcommit fc01bad797c1f034cbcc4eade915351e8f8ea5f4[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Sep 6 17:08:29 2021 +0700
+
+    Commit
+
+[33mcommit c8c4ef75162d8b185336b07a36c21ec2bef6d1a6[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Sun Sep 5 23:16:47 2021 +0700
+
+    Add Spawn Enemy
+
+[33mcommit 41fd998f95c0196866b180dd470bcc6d9c61d5d1[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Wed Sep 1 00:28:13 2021 +0700
+
+    ADD rotation but it's not complete
+
+[33mcommit 51e8594d7fa2317e370fbc38f30d8d0beee6db92[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Aug 30 19:35:03 2021 +0700
+
+    Commit
+
+[33mcommit 12ddbbe69bba27d990ef0816d1a51c12d2e6f35f[m
+Merge: 9ffc8354 cf042308
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Aug 30 19:32:02 2021 +0700
+
+    Merge pull request #1 from KasiditR/Programimg
+    
+    Debug
+
+[33mcommit cf042308027bcfda03cda5da82cff89dd898fa4f[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Aug 30 19:31:00 2021 +0700
+
+    Debug
+
+[33mcommit a5d65943f1ce31033594e0d8067b4c561b5d5dab[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Aug 30 19:28:47 2021 +0700
+
+    testBranch
+
+[33mcommit f077add415916af27dfa9cdb04da98a885b96165[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Aug 30 19:23:13 2021 +0700
+
+    test
+
+[33mcommit e0aa2e12358b78fb1fdc51d02fe0b05b112c5de4[m
+Merge: f56207e8 59ae3c88
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Aug 30 19:18:29 2021 +0700
+
+    Merge branch 'master' of https://github.com/KasiditR/GameDesingSIA
+    
+    # Conflicts:
+    #       SIAProject/Library/ArtifactDB
+    #       SIAProject/Library/CurrentLayout-default.dwlt
+    #       SIAProject/Library/PackageManager/ProjectCache
+    #       SIAProject/Library/PackageManager/ProjectCache.md5
+    #       SIAProject/Library/SceneVisibilityState.asset
+    #       SIAProject/Library/ShaderCache/EditorEncounteredVariants
+    #       SIAProject/Library/SourceAssetDB
+    #       SIAProject/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+    #       SIAProject/Logs/AssetImportWorker0.log
+    #       SIAProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
+[33mcommit f56207e89b7565ad828ab76f5c264524dd0bebc2[m
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Aug 30 19:17:52 2021 +0700
+
+    check
+
+[33mcommit 59ae3c8848f9924f37effc0ed77b3ee26d7f983a[m
+Merge: 0f38f1fa 9ffc8354
+Author: KasiditR <77877339+KasiditR@users.noreply.github.com>
+Date:   Mon Aug 30 19:15:25 2021 +0700
+
+    Merge pull request #1 from janjao937/master
+    
+    AddInputSys
+
+[33mcommit 9ffc8354b29eb0ef523ff5b95319433c6260b387[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Aug 30 19:10:09 2021 +0700
+
+    AddInputSys
+
+[33mcommit 0f38f1fa5dc2fc03b75f424644aa5a5769593ca4[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Aug 30 19:00:10 2021 +0700
+
+    ADDGitIgnore
+
+[33mcommit f15e9be51a3a092fa7d7325761e80843cdd2a021[m
+Author: janjao937 <61728559+janjao937@users.noreply.github.com>
+Date:   Mon Aug 30 18:55:35 2021 +0700
+
+    FirstCommitDontConfig

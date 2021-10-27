@@ -4,5 +4,5 @@ using System;
 public class SignResponse
 {
     public string localId;
-    public string idtoken;
+    public string idToken;
 }

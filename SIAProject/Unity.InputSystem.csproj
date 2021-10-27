@@ -202,8 +202,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\QueryKeyNameCommand.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\PropertiesViewBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\PropertyDrawers\InputControlPathDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\BaseInputOverride.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\DoubleControl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\BaseInputOverride.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\NavigationModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Keyboard.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Gamepad.cs" />
@@ -576,9 +576,6 @@
     <Reference Include="UnityEditor.iOS.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.AppleTV.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.AppleTV.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -587,9 +584,6 @@
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
       <HintPath>Library\PackageCache\com.unity.render-pipelines.core@10.5.1\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
