@@ -113,6 +113,35 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6bb6654f088804c48af024fcdd4ddc0e, type: 3}
   m_PrefabInstance: {fileID: 2441771878527204468}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &5051605139843633787
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252587700182303013}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!65 &1324763882525265172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252587700182303013}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.019541169, y: 0.02789041, z: 0.019539552}
+  m_Center: {x: 0.00021881297, y: 0.0014782668, z: -0.00000082788245}
 --- !u!114 &616406741936074928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,7 +198,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 0.03084693
-  m_BaseOffset: 0.015423465
+  m_BaseOffset: 0.01542345
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!1001 &2659648399641892142

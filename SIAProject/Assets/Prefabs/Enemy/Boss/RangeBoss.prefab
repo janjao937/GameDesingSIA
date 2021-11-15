@@ -167,7 +167,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &3497551049399067672
 MonoBehaviour:
@@ -199,15 +199,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 4959684741629441998}
   damagePopUp: {fileID: 8508749476267495382, guid: ecf9fdc9c48104144bd808246c352ec9, type: 3}
-  Hp: 0
-  Speed: 0
-  Damage: 0
+  Hp: 100
+  Speed: 5
+  Damage: 30
   knockBack: 0
-  scoreInFirstRound: 1
+  scoreInFirstRound: 10
   dieParticle: {fileID: 8894045807073587843, guid: d2685fc7db8a0864f8e48f5c36cab38f, type: 3}
   minian: {fileID: 3734452250472240816, guid: 7bc5f9c77ccdc574c9f64cd4dc1ba747, type: 3}
   firePosition: {fileID: 5188408842559452653}
-  rotation: {x: 0, y: 1, z: 0}
   rotateSpeed: 500
 --- !u!1001 &7483064982468350362
 PrefabInstance:

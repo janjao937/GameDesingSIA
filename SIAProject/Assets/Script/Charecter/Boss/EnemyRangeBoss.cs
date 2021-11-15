@@ -9,14 +9,14 @@ public class EnemyRangeBoss : Boss
 
     [SerializeField] GameObject firePosition;
     private EnemyBulletPooling enemyBulletPooling;
-    [SerializeField] private Vector3 rotation;
+    private float oldSpeed;
     [SerializeField] private float rotateSpeed;
  
     protected override void Awake()
     {
         base.Awake();
         enemyBulletPooling = EnemyBulletPooling.Instance;
-
+        oldSpeed = Speed;
         fireRate = gM.EnemyFireRate;
     }
     protected override void Update()
@@ -37,16 +37,16 @@ public class EnemyRangeBoss : Boss
 
     public override void NormalState()
     {
-        // transform.rotation = Quaternion.Euler(new Vector3(0, 5, 0));
-        //rb.AddRelativeTorque(0, 50, 0);
-        // transform.Rotate(rotation*rotateSpeed * Time.deltaTime);
-        Hp = gM.GetBossHp;
+        
+        Speed = 0;
+        transform.Rotate(0, 1 * rotateSpeed * Time.deltaTime, 0);
+        SpawnMinian();
         base.NormalState();
     }
     public override void StateTwo()
     {
-        // transform.rotation = Quaternion.Euler(Vector3.zero);
-       // transform.Rotate(Vector3.zero);
+       
+        Speed = oldSpeed;
         base.StateTwo();
     }
 }
