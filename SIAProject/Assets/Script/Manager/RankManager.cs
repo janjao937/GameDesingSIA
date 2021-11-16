@@ -12,11 +12,14 @@ public class RankManager : Singleton<RankManager>
     [SerializeField] private UserInfo userInfo;
     [SerializeField] private List<UserScore> userScores;
 
+    private SoundManager soundManager;
+
     private void Awake()
     {
         FirebaseManager.Instance.OnSetUserRank += SetUserRank;
         FirebaseManager.Instance.OnSetRank += SetRankLeader;
         StarMainMenu();
+        soundManager.PlayBGM(SoundManager.Sound.BGM_MAINMANU);
     }
     public void StarMainMenu()
     {

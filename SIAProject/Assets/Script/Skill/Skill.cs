@@ -18,10 +18,14 @@ public class Skill : MonoBehaviour
     private ParticalManager particleManager;
     [SerializeField]private ParticalManager.PlayerParticle SkillParticle;
 
+    private SoundManager soundManager;
+    [SerializeField] private SoundManager.Sound sound;
+
     private bool isCoolDown = false;
     private void Awake()
     {
         particleManager = ParticalManager.Instance;
+        soundManager = SoundManager.Instance;
         
     }
     //protected float timeCount = 0;
@@ -31,7 +35,8 @@ public class Skill : MonoBehaviour
 
     public virtual void AboutSkill(PlayerCharecter player)
     {
-        UseParticle(SkillParticle);
+        UseParticle(SkillParticle);//Use Partical
+        soundManager.Play(soundManager.AudioSorceForPlayerAction, sound); //ADD Sound
     }
 
     //Add particle to skill

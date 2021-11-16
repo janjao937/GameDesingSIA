@@ -11,6 +11,11 @@ public class UISignScene : MonoBehaviour
     [SerializeField] private RectTransform signUpUI;
     [SerializeField] private TMP_Text wronging;
     [SerializeField] private RectTransform wrongPopup;
+
+    private void Awake()
+    {
+        SoundManager.Instance.PlayBGM(SoundManager.Sound.BGM_MAINMANU);
+    }
     public void SignInComplete()
     {
         StartCoroutine(OpenScene());

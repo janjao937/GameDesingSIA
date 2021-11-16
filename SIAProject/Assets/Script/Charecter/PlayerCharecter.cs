@@ -28,7 +28,7 @@ public class PlayerCharecter : Charecter
     //{
     //    this.bullet = bullet;
     //}
-
+    private SoundManager soundManager;
     #region GetPlayer Property
 
     public event Action playerDie; 
@@ -49,7 +49,7 @@ public class PlayerCharecter : Charecter
         animator = GetComponent<Animator>();
 
         CanUseSkill = true;
-       
+        soundManager = SoundManager.Instance;
     }
 
     protected override void Update()
@@ -66,6 +66,7 @@ public class PlayerCharecter : Charecter
     }
     public void Attack()
     {
+        soundManager.Play(soundManager.AudioSorceForPlayerAction, SoundManager.Sound.PLAYER_ATK);
         bullet.GetPool();
         animator.SetTrigger("ATK");
         //Instantiate(bulletType, bullet.transform.position, Quaternion.identity);
@@ -82,6 +83,7 @@ public class PlayerCharecter : Charecter
         CanGetDamage = true;
         print(Hp);
         partical.PlayParticle(ParticalManager.PlayerParticle.HEALING);
+        soundManager.Play(soundManager.AudioSorceForPlayerAction, SoundManager.Sound.BUY_HEALING);
     }
 
    // ParticalManager.PlayerParticle a = ParticalManager.PlayerParticle.IMMORTAL;
@@ -106,7 +108,7 @@ public class PlayerCharecter : Charecter
             if (timeCountSkill <= 0)
             {
                 GM.playerSkillImg.fillAmount = 0; 
-                print("Completed");
+                
                 CanUseSkill = true;
             }
         }
@@ -117,6 +119,7 @@ public class PlayerCharecter : Charecter
     public override void TakeDamage(int damage)
     {
         if (!CanGetDamage) return;
+        soundManager.Play(soundManager.AudioSorceForPlayerAction, SoundManager.Sound.PLAYER_TAKEDAMAGE);
         base.TakeDamage(damage);
     }
 

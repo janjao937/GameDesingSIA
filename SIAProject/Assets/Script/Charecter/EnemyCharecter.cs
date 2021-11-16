@@ -9,15 +9,16 @@ public class EnemyCharecter : Charecter
     [SerializeField] private float knockBack;
     [SerializeField] private int scoreInFirstRound = 1;
     [SerializeField] protected ParticleSystem dieParticle;
-  
 
+    protected SoundManager soundManager;
 
     protected virtual void Awake()
     {
         gM = GameManager.Instance;
         gM.OnSlow += SlowEnemyAndExit;
         knockBack = gM.KnockBackForce;
-    }
+        soundManager = SoundManager.Instance;
+}
 
     public void Init(int hp, float speed,int damage,int scoreEnemyInRound)
     {
@@ -25,18 +26,18 @@ public class EnemyCharecter : Charecter
         Damage = damage;
         scoreInFirstRound = scoreEnemyInRound;
     }
-    public void OnStunt()
+    public virtual void OnStunt()
     {
         Speed = 0;
   
     }
-    public void ExitStunt(float speed)
+    public virtual void ExitStunt(float speed)
     {
         Speed = speed;
        
     }
 
-    private void SlowEnemyAndExit(float speed)
+    protected void SlowEnemyAndExit(float speed)
     {
         Speed = speed;
         //Slow and Exit Slow Animation
@@ -69,7 +70,8 @@ public class EnemyCharecter : Charecter
         Instantiate(dieParticle, transform.position, Quaternion.identity);
         Destroy(gameObject);
         ScoreManager.Instance.AddScore(scoreInFirstRound);
-        
+        soundManager.Play(soundManager.AudioSorceForEnemyAction, SoundManager.Sound.ENEMY_DIE);
+
     }
 
 

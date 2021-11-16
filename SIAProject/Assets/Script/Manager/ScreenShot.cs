@@ -25,8 +25,15 @@ public class ScreenShot : MonoBehaviour
     public Image ShowImage;
     public UnityEvent OnShowImage;
 
-    
+    private SoundManager soundManager;
 
+    private void Awake()
+    {
+        closeButton.onClick.AddListener(CloseButtonActive);
+        //CaptureWidth = (Screen.height / 16) * 9;
+        //CaptureHeigh = Screen.height;
+        soundManager = SoundManager.Instance;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -37,18 +44,8 @@ public class ScreenShot : MonoBehaviour
             Debug.Log(outputFolder);
         }
     }
-    private void Awake()
-    {
-        closeButton.onClick.AddListener(CloseButtonActive);
-        //CaptureWidth = (Screen.height / 16) * 9;
-        //CaptureHeigh = Screen.height;
-    }
+    
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private string CreateFile(int width,int height)
     {
 
@@ -126,6 +123,7 @@ public class ScreenShot : MonoBehaviour
     {
         if(!IsProcessing)
         {
+            soundManager.Play(soundManager.AudioSorceForPlayerAction, SoundManager.Sound.SCREENSHOT);
             CaptureScreen();
         }
         else

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EnemyMaleeBoss : Boss
 {
-    float numForChangeState;
     float normalSpeed;
 
     protected override void Awake()
@@ -20,6 +19,7 @@ public class EnemyMaleeBoss : Boss
     }
     public override void NormalState()
     {
+        soundManager.Play(soundManager.AudioSorceForEnemyAction, SoundManager.Sound.ENEMY_BOOSTSPEED);
         Speed = 20;
         base.NormalState();
     }

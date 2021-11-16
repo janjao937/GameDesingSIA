@@ -5,7 +5,8 @@ using System;
 
 public class SoundManager : Singleton<SoundManager>
 {
-    public AudioSource AudioSorceForAction;
+    public AudioSource AudioSorceForPlayerAction;
+    public AudioSource AudioSorceForEnemyAction;
 
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private SoundClip[] soundClips;
@@ -13,14 +14,39 @@ public class SoundManager : Singleton<SoundManager>
 
     public enum Sound
     {
-      BGM,
+      BGM_MAINMANU,
+      BGM_SCENEGAME,
+      BGM_SPAWNBOSS,
+      BGM_DIE,//No loop
+
+      SCREENSHOT,
       PUSH_BUTTON,
-      FIRE,
+      PLAYER_TAKEDAMAGE,
+      PLAYER_ATK,
+      BUY_HEALING,
+      BUY_DAMAGE,
+
       SKILL_SPEED,
       SKILL_IMMORTAL,
-      
+      SKILL_STUNT,
+      SKILL_SLOWENEMY,
+      SKILL_ADDDAMAGE,
+
+      ENEMYRANGE_ROLL,//15second 
+      ENEMY_FIRE,
+      ENEMY_BOMB,
+      ENEMY_BOOSTSPEED,
+      ENEMY_SPAWN,
+      ENEMY_DIE,
+      BOSS_SPAWN,
+      Boss_SPAWNMINIAN,
+      Boss_Healing,
+
 
     }
+      
+
+    
 
 
   
@@ -35,7 +61,7 @@ public class SoundManager : Singleton<SoundManager>
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
-        PlayBGM(Sound.BGM);
+        PlayBGM(Sound.BGM_MAINMANU);
     }
 
 

@@ -9,7 +9,12 @@ public class AdsManager : MonoBehaviour,IUnityAdsListener
     [SerializeField]private GameManager gm;
     private string gameID = "4417043";
     public bool testMode = true;
+    private SoundManager soundManager;
 
+    private void Awake()
+    {
+        soundManager = SoundManager.Instance;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +24,7 @@ public class AdsManager : MonoBehaviour,IUnityAdsListener
 
     public void OpenAds(string placement)
     {
+        soundManager.Play(soundManager.AudioSorceForPlayerAction, SoundManager.Sound.PUSH_BUTTON);
         Advertisement.Show(placement);
     }
 

@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class EnemyBomb : EnemyCharecter
 {
-   [SerializeField] private int bombDamage;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        Damage = gM.GetBombDamage;
+    }
 
     protected override void OnCollisionEnter(Collision collision)
     {
-        Damage += gM.GetBombDamage;
         base.OnCollisionEnter(collision);
-        print("BoooM2");
+
+        soundManager.Play(soundManager.AudioSorceForEnemyAction, SoundManager.Sound.ENEMY_BOMB);
         if (collision.gameObject.tag == "Player") IsDie();
-      
-       
-
-
     }
     public override void IsDie()
     {
