@@ -5725,7 +5725,7 @@ PrefabInstance:
     - target: {fileID: 1225512974758528929, guid: c49e38f7e3693844487fbe3bd48bfab7, type: 3}
       propertyPath: SkillButtonImg
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5486420757667496826, guid: d3d9271b60d258549880951ea5e6bfa6, type: 3}
     - target: {fileID: 1225512974758528930, guid: c49e38f7e3693844487fbe3bd48bfab7, type: 3}
       propertyPath: m_Name
       value: StuntSkill (1)

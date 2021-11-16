@@ -424,7 +424,8 @@ public class GameManager : Singleton<GameManager>
     }
     private void GotoMainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+       // SceneManager.LoadScene("MainMenu");
+        LoadSceneManager.Instance.LoadScene("MainMenu");
     }
 
     //Buy Function
@@ -443,10 +444,7 @@ public class GameManager : Singleton<GameManager>
     }
 
     private void BuySkill()
-    {
-       
-        print("Button skill On");
-        
+    {   
         if (scoreManager.Score < playerSkill[randomSkillIndex].SkillPrice) return;
       
         scoreManager.MinusScore(playerSkill[randomSkillIndex].SkillPrice);
@@ -550,43 +548,6 @@ public class GameManager : Singleton<GameManager>
         }
     }
     #endregion
-    //private void CreatMap()
-    //{
-    //    int i = 0;
-    //    while(i<=map.Length)
-    //    {
-
-    //    }
-    //}
-
-    //For Mockup
-    //private void RestartGame()
-    //{
-    //    var enemyCheck = GameObject.FindGameObjectsWithTag("Enemy");
-    //    Panel.gameObject.SetActive(true);
-    //    button.gameObject.SetActive(true);
-    //    Cursor.visible = true;
-    //    foreach (var enemy in enemyCheck)
-    //    {
-    //        Destroy(enemy);
-    //    }
-    //}
-
-    //IEnumerator wave()
-    //{
-    //    waveEnd = false;
-    //    for(var i=0;i<enemyInThisRound;i++)
-    //    {
-    //        SpawnEnemy();
-    //        yield return new WaitForSeconds(spawnRate);
-    //    }
-
-    //    SpawnBoss();
-
-    //    enemyHp += 10;
-
-    //    yield return new WaitForSeconds(timeBetweenWave);
-    //    waveEnd = true;
-    //}
+    
 
 }

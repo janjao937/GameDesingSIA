@@ -27,7 +27,8 @@ public class UISignScene : MonoBehaviour
     }
     public void OnPlay()
     {
-        SceneManager.LoadScene("SampleScene");
+        //SceneManager.LoadScene("SampleScene");
+        LoadSceneManager.Instance.LoadScene("SampleScene");
     }
     public void OnWrongingOpen()
     {
@@ -41,7 +42,8 @@ public class UISignScene : MonoBehaviour
     IEnumerator OpenScene()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("MainMenu");
+        //SceneManager.LoadScene("MainMenu");
+        LoadSceneManager.Instance.LoadScene("MainMenu");
 
     }
 }

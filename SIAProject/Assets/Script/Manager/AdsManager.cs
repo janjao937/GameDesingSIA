@@ -46,7 +46,7 @@ public class AdsManager : MonoBehaviour,IUnityAdsListener
         }
         else
         {
-            print("Why you skip TOT");
+            LoadSceneManager.Instance.LoadScene("MainMenu");
             gm.CountrolAdsPanel(false);
         }
     }
