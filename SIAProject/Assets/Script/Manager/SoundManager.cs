@@ -39,7 +39,6 @@ public class SoundManager : Singleton<SoundManager>
       ENEMY_SPAWN,
       ENEMY_DIE,
       BOSS_SPAWN,
-      Boss_SPAWNMINIAN,
       Boss_Healing,
 
 

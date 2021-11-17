@@ -72,16 +72,17 @@ public class Boss : EnemyCharecter,IBossState
     }
     protected void SpawnMinian()
     {
+        //soundManager.Play(soundManager.AudioSorceForEnemyAction, SoundManager.Sound.Boss_SPAWNMINIAN);
 
         while (minianAmount > 0)
         {
 
-            var xPosition = Random.Range(gM.MinSpawnEnemyForRandomX, gM.MaxSpawnEnemyForRandomX);
-            var zPosition = Random.Range(gM.MinSpawnEnemyForRandomZ, gM.MaxSpawnEnemyForRandomZ);
+            var xPosition = Random.Range(gM.MinMinianSpawnpositionX, gM.MaxMinianSpawnpositionX);
+            var zPosition = Random.Range(gM.MinMinianSpawnpositionZ, gM.MaxMinianSpawnPositionZ);
 
-            soundManager.Play(soundManager.AudioSorceForEnemyAction, SoundManager.Sound.Boss_SPAWNMINIAN);
+            soundManager.Play(soundManager.AudioSorceForEnemyAction, SoundManager.Sound.ENEMY_SPAWN);
 
-            Instantiate(minian, new Vector3(xPosition, 0, zPosition), Quaternion.identity);
+            Instantiate(minian, new Vector3(transform.position.x-xPosition, 0, transform.position.z-zPosition), Quaternion.identity);//Must Check
             minianAmount--;
         }
     }
@@ -92,7 +93,6 @@ public class Boss : EnemyCharecter,IBossState
     {
         if (Hp <= (gM.GetBossHp / 2))
         {
-            Debug.Log("Spawn");
             SpawnMinian();
 
         }

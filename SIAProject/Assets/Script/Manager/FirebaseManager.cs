@@ -53,17 +53,22 @@ public class FirebaseManager : Singleton<FirebaseManager>
     public event Action OnSetUserRank;
     public event Action OnGetLocalID;
 
+    private SoundManager soundManager;
+
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
+        soundManager = SoundManager.Instance;
     }
 
     public void SignUpButton()
     {
+        soundManager.Play(soundManager.AudioSorceForPlayerAction, SoundManager.Sound.PUSH_BUTTON);
         SignUp(usernameSignup.text,emailSignup.text, passwordSignup.text);
     }
     public void SignInButton()
     {
+        soundManager.Play(soundManager.AudioSorceForPlayerAction, SoundManager.Sound.PUSH_BUTTON);
         SignIn(emailSignin.text, passwordSignin.text);
     }
     

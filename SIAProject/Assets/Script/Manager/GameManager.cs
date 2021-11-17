@@ -24,8 +24,7 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private Button closeAboutSkillButton;
     [SerializeField] private GameObject aboutSkill;
     [SerializeField] private TextMeshProUGUI countTimeText;
-
-
+  
     [SerializeField] private TextMeshProUGUI roundText;
     [SerializeField] private EnemyCharecter[] enemy;
     [SerializeField] private EnemyCharecter[] boss;
@@ -43,14 +42,23 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private Image skillImage;
     [SerializeField] private float timeToBuy;
     [SerializeField] private ScoreManager scoreManager;
+    
+    
 
 
-    [Header("Buy_Button")]
+
+  [Header("Buy_Button")]
     [SerializeField] private Button buyHealingButton;
     [SerializeField] private Button buySkillButton;
     [SerializeField] private Button buyUpPlayerDamageButton;
     [SerializeField] private TextMeshProUGUI healthPrice;
     [SerializeField] private int healingPrice = 3;
+    [SerializeField] private int addDamage = 2;
+    [SerializeField] private int buyAddDamagePrice = 3;
+    [SerializeField] private TextMeshProUGUI damageToAddText;
+    [SerializeField] private TextMeshProUGUI skillPriceText;
+    [SerializeField] private TextMeshProUGUI buyAddDamagePriceText;
+    
 
     [Header("Restart_UI")]
     public GameObject RestartPanel;
@@ -163,6 +171,7 @@ public class GameManager : Singleton<GameManager>
     public EnemyBulletPooling PoolingEnemyBullet;//get pool
     public Bullet EnemyBullet;
     public float EnemyFireRate;
+    public float EnemyRangeRotateSpeed;
     //DamageSpeed
     // Distance
 
@@ -183,14 +192,14 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private float bossSpeed;
     [SerializeField] private int bossDamage;
     [SerializeField] private int scoreBossInRound;
-    [SerializeField] private int bossBulletDamage;
+
     public int HpForBossHealing;
     public int minianAmount;
  
-    #region For get Enemy Bullet property
-    public int getBossBulletDamage
+    #region For get Enemy Boss property
+    public int getBossDamage
     {
-        get { return bossBulletDamage; }
+        get { return bossDamage; }
     }
     #endregion
 
@@ -200,7 +209,14 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private float minSpawnEnemyForRandomX = 10f;
     [SerializeField] private float maxSpawnEnemyForRandomZ = -5f;
     [SerializeField] private float minSpawnEnemyForRandomZ = -3.9f;
-    
+
+    [Header("Position for Spawn Minian")]
+    public float MaxMinianSpawnpositionX = 6;
+    public float MaxMinianSpawnPositionZ = 6;
+    public float MinMinianSpawnpositionX = -6;
+    public float MinMinianSpawnpositionZ = -6;
+
+
     #region Get SpawnEnemPoint
     public float MaxSpawnEnemyForRandomX
     {
@@ -234,8 +250,10 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
+
+
     #endregion
-   
+    [Header("Position for Spawn Boss")]
     [SerializeField] private float spawnBossPositionX = -8;
     [SerializeField] private float spawnBossPositionZ = 13;
 
@@ -401,7 +419,10 @@ public class GameManager : Singleton<GameManager>
         skillImage.sprite = playerSkill[randomSkillIndex].SkillImage.sprite;//Add Skill Image  
         countTimeText.text = $"0{(int)timeCount}"; //Show timeCount
         timeCount -= Time.deltaTime;
-        
+        skillPriceText.text = $"{playerSkill[randomSkillIndex].SkillPrice}";
+        buyAddDamagePriceText.text = $"{buyAddDamagePrice}";
+        damageToAddText.text = $"{addDamage}";
+
         buyPanel.gameObject.SetActive(true);
         
         if (timeCount > 0) return;
@@ -462,7 +483,6 @@ public class GameManager : Singleton<GameManager>
         if (scoreManager.Score < playerSkill[randomSkillIndex].SkillPrice) return;
       
         scoreManager.MinusScore(playerSkill[randomSkillIndex].SkillPrice);
-        buyPanel.SetActive(false);
         playerInScene.GetSkill(playerSkill[randomSkillIndex]);                                     
         playerSkillImg.sprite = playerSkill[randomSkillIndex].SkillButtonImg.sprite;
         timeCount = 0;
@@ -470,7 +490,14 @@ public class GameManager : Singleton<GameManager>
     private void UpDamage()
     {
         soundManager.Play(soundManager.AudioSorceForPlayerAction, SoundManager.Sound.BUY_DAMAGE);
-        BulletDamage += 2;
+        if (scoreManager.Score < buyAddDamagePrice) return;
+        scoreManager.MinusScore(buyAddDamagePrice);
+
+        BulletDamage += addDamage;
+
+        buyAddDamagePrice += 1;
+
+        addDamage += 2;
         timeCount = 0;
     }
 
@@ -489,9 +516,12 @@ public class GameManager : Singleton<GameManager>
 
     #region "For Skill"
 
-    public void TimeSlow(float speed)
+    public void TimeSlow(float speed,float enemyRangeRotateSpeed,float enemyFireRate)
     {
         OnSlow(speed);
+        EnemyRangeRotateSpeed = enemyRangeRotateSpeed;
+        EnemyFireRate = enemyFireRate;
+
     }
 
 

@@ -2369,7 +2369,7 @@ GameObject:
   - component: {fileID: 628768275}
   - component: {fileID: 628768274}
   m_Layer: 5
-  m_Name: Cost
+  m_Name: SkillCost_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3659,6 +3659,140 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907466030}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &910624491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 910624492}
+  - component: {fileID: 910624493}
+  - component: {fileID: 910624494}
+  m_Layer: 5
+  m_Name: DamageToAddText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &910624492
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910624491}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1347522356}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 38.653, y: 2.9859}
+  m_SizeDelta: {x: 77.307, y: 44.0281}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &910624493
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910624491}
+  m_CullTransparentMesh: 1
+--- !u!114 &910624494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910624491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 00
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 14
+  m_fontSizeBase: 14
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 3.5831184, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &912039785
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,7 +4256,9 @@ MonoBehaviour:
   - {fileID: 515642301285169554, guid: 9dc86f5aac9e081419fc54dbee76611d, type: 3}
   - {fileID: 4148465862400526694, guid: 02136c1376ef5104ba3360a13eb2e62c, type: 3}
   boss:
-  - {fileID: 2580149051494765736, guid: 597ec53eddfa6334b9a4afd5f76bddd1, type: 3}
+  - {fileID: 1385949549104368874, guid: beefb1b637e9fac45aee7dca2b977391, type: 3}
+  - {fileID: 3398253054601998875, guid: f6e2a9803d56f3b4c8e74636a8c54abd, type: 3}
+  - {fileID: 5547396781875424948, guid: fe358e26fd9307b4c9d8886ecb142855, type: 3}
   enemyInThisRound: 1
   map: []
   buyPanel: {fileID: 1709214145}
@@ -4134,6 +4270,11 @@ MonoBehaviour:
   buyUpPlayerDamageButton: {fileID: 1373748305}
   healthPrice: {fileID: 355253229}
   healingPrice: 3
+  addDamage: 2
+  buyAddDamagePrice: 0
+  damageToAddText: {fileID: 910624494}
+  skillPriceText: {fileID: 628768274}
+  buyAddDamagePriceText: {fileID: 984230266}
   RestartPanel: {fileID: 1194014935}
   goToMainMenuButton: {fileID: 847704921}
   finalScore: {fileID: 1029293808}
@@ -4160,17 +4301,21 @@ MonoBehaviour:
   PoolingEnemyBullet: {fileID: 5606967}
   EnemyBullet: {fileID: 4407666816173470241, guid: 1d10dfe73e0de9a4db6e8574da45d5f8, type: 3}
   EnemyFireRate: 1.5
+  EnemyRangeRotateSpeed: 0
   bossHp: 100
   bossSpeed: 5
   bossDamage: 30
   scoreBossInRound: 10
-  bossBulletDamage: 0
   HpForBossHealing: 30
-  minianAmount: 1
+  minianAmount: 5
   maxSpawnEnemyForRandomX: -10
   minSpawnEnemyForRandomX: 10
   maxSpawnEnemyForRandomZ: -5
   minSpawnEnemyForRandomZ: -3.9
+  MaxMinianSpawnpositionX: 6
+  MaxMinianSpawnPositionZ: 6
+  MinMinianSpawnpositionX: -6
+  MinMinianSpawnpositionZ: -6
   spawnBossPositionX: -8
   spawnBossPositionZ: 13
   playerSkillImg: {fileID: 1582054528}
@@ -4617,7 +4762,7 @@ GameObject:
   - component: {fileID: 984230267}
   - component: {fileID: 984230266}
   m_Layer: 5
-  m_Name: Cost
+  m_Name: UpDamageCost_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6222,6 +6367,7 @@ RectTransform:
   m_Children:
   - {fileID: 984230265}
   - {fileID: 1373748303}
+  - {fileID: 910624492}
   m_Father: {fileID: 1709214146}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7917,8 +8063,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10e29ab04b94e2849b865ea6e87e12e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CaptureHeigh: 0
-  CaptureWidth: 0
+  CaptureHeigh: 1080
+  CaptureWidth: 1920
   closeButton: {fileID: 1833605585}
   format: 1
   IsProcessing: 0

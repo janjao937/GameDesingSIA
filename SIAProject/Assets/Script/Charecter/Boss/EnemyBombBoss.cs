@@ -9,7 +9,7 @@ public class EnemyBombBoss : Boss
     protected override void Awake()
     {
         base.Awake();
-        Damage = addDamageForBomb;
+        Damage = gM.GetBombDamage;
     }
     public override void NormalState()
     {
@@ -25,6 +25,7 @@ public class EnemyBombBoss : Boss
     protected override void OnCollisionEnter(Collision collision)
     {
         partical.Play();
+        soundManager.Play(soundManager.AudioSorceForEnemyAction, SoundManager.Sound.ENEMY_BOMB);
         base.OnCollisionEnter(collision);
     }
 }
